@@ -21,3 +21,7 @@ body{
 span{
     cursor: pointer;
 }
+.answer p{
+    padding: 10px 10px;
+
+}
