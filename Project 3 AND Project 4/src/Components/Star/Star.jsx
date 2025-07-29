@@ -17,7 +17,7 @@ const Star = ({Starlength=5}) => {
     setHover(rating)
   }
   return (
-    <div>
+    <div className='star-container'>
       {[...Array(Starlength)].map((_,indx)=>{
         indx+=1
         return(

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.slider{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    overflow: hidden;
+    margin: 40px 20px;
+    position: relative;
+
+}
+.slider .slide{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.arrow{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index: 99;
+    top: 48%;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}   
+.right{
+    left: 20px;
+}
+.left{
+    right: 20px;
+}
+.bullets-cont{
+    display: flex;
+    position: absolute;
+    z-index: 999;
+    bottom: 10%;
+    left: 40%;
+    background-color: transparent;
+    gap: 2px;
+}
+.bullets-cont .bullets{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(238, 227, 227);
+    cursor: pointer;
+}
+.bullets-cont .bullets-active{
+    background-color: black;
+}
