@@ -1,0 +1,29 @@
+.container{
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+.card{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    flex-direction: column;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
